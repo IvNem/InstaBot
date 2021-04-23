@@ -254,6 +254,6 @@ class InstagramBot():
 
 
 bot = InstagramBot(username, password)
-# bot.hashtag_search("лучшаядочь")
+# bot.hashtag_search("hashtag")
 bot.login()
-bot.get_all_followers('https://www.instagram.com/martynova_26/')
+bot.get_all_followers('https://www.instagram.com/username/')
